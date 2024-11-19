@@ -29,7 +29,7 @@ def main():
                 turno = "Máquina"
         else:
             print("\nTurno de la máquina...")
-            x, y = np.random.randint(0, TABLERO_DIMENSION, size=2)
+            x, y = np.random.randint(0, DIMENSIONES, size=2)
             if jugador.disparar(x, y):
                 print(f"La máquina ha impactado en ({x}, {y}).")
             else:

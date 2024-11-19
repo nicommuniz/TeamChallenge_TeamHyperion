@@ -1,5 +1,7 @@
 # Archivo para variables.py
 
+# Archivo para variables.py
+
 # Tamaño del tablero
 DIMENSIONES = 10
 
