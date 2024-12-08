@@ -6,7 +6,7 @@ import numpy as np
 
 def main():
     print("¡Bienvenido a Hundir la Flota!")
-    print("Instrucciones: ...")  # Agrega instrucciones si es necesario
+    print("Comienza el juego, es turno del jugador")
 
     # Inicializar tableros
     jugador = Tablero("Jugador")

@@ -11,8 +11,8 @@ class Tablero:
         self.jugador_id = jugador_id
         self.dimension = 10
         self.barcos = []  # Lista de barcos colocados
-        self.tablero = np.zeros((self.dimension, self.dimension), dtype=int)  # Tablero con barcos
-        self.impactos = np.zeros((self.dimension, self.dimension), dtype=int)  # Tablero de disparos
+        self.tablero = np.zeros((self.dimension, self.dimension), dtype= int)  # Tablero con barcos
+        self.impactos = np.zeros((self.dimension, self.dimension),dtype= int)  # Tablero de disparos
         self.inicializar_barcos()
 
     def inicializar_barcos(self):
